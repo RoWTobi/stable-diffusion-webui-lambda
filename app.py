@@ -9,6 +9,7 @@ os.system(f"git lfs install")
 os.system(f"git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui /home/demo/source/stable-diffusion-webui")
 
 shutil.move("ui-config.json", "/home/demo/source/stable-diffusion-webui/ui-config.json")
+shutil.move("config.json", "/home/demo/source/stable-diffusion-webui/config.json")
 
 os.chdir(f"/home/demo/source/stable-diffusion-webui")
 
